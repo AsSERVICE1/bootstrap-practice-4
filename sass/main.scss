@@ -1,0 +1,22 @@
+//custom variables
+
+$primary:#c5269d;
+$secondary:#1aa7ec;
+$light:#c8c2e9cc;
+$muted:#f8f8f8;
+
+//import the functions and variables
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-color:
+(
+    "altlight":#788dcf,
+    "altdark":#242435,
+    "background1":#040836
+);
+
+$theme-colors: map-merge($custom-theme-color , $theme-colors );
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';

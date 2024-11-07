@@ -1,0 +1,116 @@
+footer a {
+    color: rgba(255, 255, 255, .5);
+}
+footer .social-icons a i {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 4px;
+}
+#sserr.form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+#sserr.form-control::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  footer .social-icons a i:hover{
+    background: rgb(255, 255, 255);
+    color: #1aa7ec;
+}
+#sser.form-control::placeholder {
+    color: #4e4e4e;
+  }
+#sser.form-control:hover {
+    box-shadow: 0 0 0 4px rgba(26, 167, 236, 0.3);
+}
+#sser.form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+.navbar-toggler:focus {
+     box-shadow: 0 0 0 0; 
+}
+.navbar-toggler
+{
+    border: 0;
+}
+#con:hover
+{
+    box-shadow: 0px 0px 8px 2px rgba(26, 167, 236 , 0.5);
+}
+.con {
+    position: relative;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: white;
+  }
+  
+.img1 { 
+    width: 100%;
+    height: auto;
+  }
+  .box
+  {
+    background-color: #788dcf;
+  }
+.box:hover
+{
+    background-color: #c8c2e9cc;
+}
+.contai
+{
+    width: 1300px;
+    margin: auto;
+}
+.author-list.d-col-md-3:not(.alt-1) {
+    column-count: 3;
+    column-gap: 60px;
+}
+.heart-hov:hover
+{
+    color: #c5269d;
+}
+.icon-box
+{
+    position: relative;
+    height: 125px;
+    display: block;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.icon-box i {
+    opacity: .3;
+    position: absolute;
+    display: block;
+    width: 100%;
+    font-size: 80px;
+    margin: 0 auto;
+}
+.icon-box.style-2 {
+    border: none;
+    background: #c8c2e9cc;
+    color: #1aa7ec;
+}
+.icon-box.style-2:hover{
+    background: #040836;
+}
+.icon-box:hover {
+    color: #ffffff;
+}
+.icon-box a span:hover {
+    color: #ffffff;
+}
+.cen
+{
+    display: flex;
+
+justify-content: center; /* horizontally center */
+
+align-items: center; /* vertically center */
+}
+
+.input-group>.form-control, .input-group>.form-select, .input-group>.form-floating {
+    flex: 0.8 1 auto;
+}
